@@ -3,8 +3,6 @@ we are going to build a Arduino based vehicle accident alert system using GPS, G
 
 Includes and Definitions
 
-cpp
-
     #include <SoftwareSerial.h>
     SoftwareSerial Serial1(2,3); // RX = pin 2, TX = pin 3
     SoftwareSerial gps(10,11);   // RX = pin 10, TX = pin 11
@@ -31,8 +29,6 @@ minVal and MaxVal set the minimum and maximum values for sensor readings.
 
 Function Definitions
 
-cpp
-
     void initModule(String cmd, char *res, int t) { /* Function code */ }
 
     void setup() { /* Setup code */ }
@@ -48,7 +44,6 @@ cpp
 
 Setup Function
 
-cpp
 
     void setup() {
       Serial1.begin(9600);
@@ -61,7 +56,6 @@ It initializes serial communication with baud rate 9600 for both Serial1 and the
 
 Loop Function
 
-cpp
 
     void loop() {
       /* Main loop code */
