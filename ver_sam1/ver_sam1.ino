@@ -211,7 +211,7 @@ void Send()
    serialPrint();
    Serial1.print("AT+CMGS=");
    Serial1.print('"');
-   Serial1.print("8220849878");    //mobile no. for SMS alert
+   Serial1.print("**********");    //mobile no. for SMS alert
    Serial1.println('"');
    delay(500);
    serialPrint();
